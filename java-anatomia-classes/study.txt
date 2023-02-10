@@ -1,0 +1,5 @@
+metodh main
+args
+(String [] args)
+System = language class
+Every class exist in the SRC directory
