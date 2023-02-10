@@ -1,10 +1,15 @@
 public class MyClass {
 
     public static void main(String[] args) {
-        System.out.print("Hello World!");
 
-        int numero = 10;
-        String nome = "Rafael";
-        final double PI = 3.14;
+        String firstName = "Isequiel";
+        String lastName = "Nascimento";
+        String fullName = getFullName(firstName, lastName);
+
+        System.out.println(fullName);
+    }
+
+    public static String getFullName(String firstName, String lastName) {
+        return "The method result is " + firstName.concat(" ").concat(lastName);
     }
 }
